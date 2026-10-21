@@ -88,7 +88,7 @@ Historical VaR at 95% is estimated using the 5th percentile of daily returns.
 
 VaR represents a loss threshold associated with the lower tail of the historical return distribution.
 
-CVaR at 95% estimates the average loss among observations whose returns fall at or below that 5th-percentile threshold.
+Historical CVaR at 95% is calculated as the average loss among daily returns at or below the historical 5th-percentile threshold. It measures the severity of losses in the worst 5% of observations.
 
 These measures provide complementary views of downside risk: VaR estimates a threshold, while CVaR describes the severity of losses beyond it.
 
