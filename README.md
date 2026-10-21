@@ -60,28 +60,17 @@ Basic data quality checks identified a small number of observations with price i
 
 Daily returns are calculated using closing prices:
 
-𝑟
-𝑡
-=
-𝑃
-𝑡
-𝑃
-𝑡
-−
-1
-−
-1
+$$
+r_t = \frac{P_t}{P_{t-1}} - 1
+$$
 
 Daily volatility is estimated using the standard deviation of daily returns.
 
 Annualized volatility is estimated using the conventional approximation:
 
-𝜎
-annual
-=
-𝜎
-daily
-252
+$$
+\sigma_{\text{annual}} = \sigma_{\text{daily}} \sqrt{252}
+$$
 
 This assumes approximately 252 trading sessions per year.
 
